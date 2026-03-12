@@ -2,8 +2,8 @@ name: Weekly Trending Notifications
 
 on:
   schedule:
-    # Runs at 00:00 UTC every Friday (roughly Friday morning for most of the world)
-    - cron: '0 0 * * 5'
+    # Runs at 12:30 UTC every Friday (6:00 PM IST)
+    - cron: '30 12 * * 5'
   workflow_dispatch:
     # Allows you to run it manually from the Actions tab
 
